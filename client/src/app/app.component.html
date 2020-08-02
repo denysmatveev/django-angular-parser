@@ -1,0 +1,28 @@
+<div class="limiter">
+    <div class="container-table100">
+        <div class="wrap-table100">
+            <div class="table100">
+                <table>
+                    <thead>
+                        <tr class="table100-head">
+                            <th class="title">Breakdown</th>
+                            <th class="column2">12/30/2019</th>
+                            <th class="column3">12/30/2018</th>
+                            <th class="column4">12/30/2017</th>
+                            <th class="column5">12/30/2016</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let item of httpdata">
+                            <td style="text-align: left;">{{ item.title }}</td>
+                            <td>{{ item.date_2019 }}</td>
+                            <td>{{ item.date_2018 }}</td>
+                            <td>{{ item.date_2017 }}</td>
+                            <td>{{ item.date_2016 }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
