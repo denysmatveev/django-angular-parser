@@ -12,6 +12,8 @@
 - selenium==3.141.0             `pip install selenium`
 - webdriver-manager==3.2.1      `pip install webdriver-manager`
 - beautifulsoup4==4.9.1         `pip install beautifulsoup4`
+- psycopg2==2.8.5               `pip install psycopg2`
+ 
  
 ### Инструкция по запуску:
 1. Сделать `pip install` всех модулей выше.
